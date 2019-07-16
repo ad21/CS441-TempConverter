@@ -14,6 +14,7 @@
 		9E232C1C22DD611F009B0AC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E232C1A22DD611F009B0AC2 /* LaunchScreen.storyboard */; };
 		9E232C2722DD611F009B0AC2 /* TempConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E232C2622DD611F009B0AC2 /* TempConverterTests.swift */; };
 		9E232C3222DD611F009B0AC2 /* TempConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E232C3122DD611F009B0AC2 /* TempConverterUITests.swift */; };
+		9E232C4022DD62FF009B0AC2 /* Page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E232C3F22DD62FE009B0AC2 /* Page2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9E232C2D22DD611F009B0AC2 /* TempConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E232C3122DD611F009B0AC2 /* TempConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempConverterUITests.swift; sourceTree = "<group>"; };
 		9E232C3322DD611F009B0AC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E232C3F22DD62FE009B0AC2 /* Page2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				9E232C1122DD6118009B0AC2 /* AppDelegate.swift */,
 				9E232C1322DD6118009B0AC2 /* ViewController.swift */,
+				9E232C3F22DD62FE009B0AC2 /* Page2.swift */,
 				9E232C1522DD6118009B0AC2 /* Main.storyboard */,
 				9E232C1822DD611F009B0AC2 /* Assets.xcassets */,
 				9E232C1A22DD611F009B0AC2 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				9E232C1422DD6118009B0AC2 /* ViewController.swift in Sources */,
 				9E232C1222DD6118009B0AC2 /* AppDelegate.swift in Sources */,
+				9E232C4022DD62FF009B0AC2 /* Page2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -50,11 +50,11 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--Page2-->
         <scene sceneID="qpm-Wf-CYL">
             <objects>
-                <viewController id="CTc-kQ-9Ry" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Y27-Lz-jkK">
+                <viewController id="CTc-kQ-9Ry" customClass="page2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y27-Lz-jkK" customClass="page">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
