@@ -35,13 +35,16 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="vWs-ag-Qfu">
                                 <rect key="frame" x="35" y="243" width="303" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="Slider:" destination="BYZ-38-t0r" eventType="valueChanged" id="yO0-bI-liD"/>
+                                </connections>
                             </slider>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6fB-tr-eds">
-                                <rect key="frame" x="57" y="387" width="261" height="30"/>
+                                <rect key="frame" x="75" y="394" width="261" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Click ME!"/>
                                 <connections>
-                                    <segue destination="CTc-kQ-9Ry" kind="show" identifier="segue" id="U4L-2O-Y5z"/>
+                                    <action selector="Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rT7-Vc-lQF"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -51,7 +54,6 @@
                     <connections>
                         <outlet property="Celsius" destination="2vu-Pc-yjS" id="jSU-em-uJp"/>
                         <outlet property="Farhenheit" destination="m9Y-pS-Tx6" id="mkz-eX-mmQ"/>
-                        <outlet property="Slider" destination="vWs-ag-Qfu" id="UpB-SX-Hso"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -77,6 +79,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="vlS-G9-rQj"/>
                     </view>
+                    <connections>
+                        <outlet property="TemperatureIs" destination="2HG-i3-TBN" id="0xy-n5-0Ai"/>
+                        <outlet property="label" destination="2HG-i3-TBN" id="Nd4-Ny-6SF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BKm-1m-BdB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

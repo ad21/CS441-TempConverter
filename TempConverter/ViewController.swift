@@ -19,13 +19,27 @@ class ViewController: UIViewController {
     @IBOutlet weak var Farhenheit: UILabel!
     @IBOutlet weak var Celsius: UILabel!
     
-    @IBOutlet weak var Slider: UISlider!
+    @IBAction func Slider(_ sender: UISlider) {
+}
     
+    @IBAction func Action(_ sender: Any) {
+    
+    if Farhenheit.text != ""
+    {
+            performSegue(withIdentifier: "segue" , sender: self)
+    }
+    
+}
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        var SecondController = segue.destination as! SecondViewController
+        SecondController.myString = UISlider?
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
+
+
 
