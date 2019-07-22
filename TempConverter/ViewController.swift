@@ -15,9 +15,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    @IBOutlet weak var Celsius: UITextField!
     
-    @IBOutlet weak var Farhenheit: UILabel!
-    @IBOutlet weak var Celsius: UILabel!
+    @IBOutlet weak var Farhenheit: UITextField!
     
     @IBAction func Slider(_ sender: UISlider) {
         
@@ -46,4 +46,4 @@ class ViewController: UIViewController {
 }
 
 
-
+}
