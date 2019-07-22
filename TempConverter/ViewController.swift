@@ -20,9 +20,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var Celsius: UILabel!
     
     @IBAction func Slider(_ sender: UISlider) {
+        
+        func temperatureInFahrenheit(temperature: Double) -> Double {
+            let fahrenheitTemperature = temperature * 9 / 5 + 32
+            return fahrenheitTemperature
+
 }
     
-    @IBAction func Action(_ sender: Any) {
+        func Action(_ sender: Any) {
     
     if Farhenheit.text != ""
     {
@@ -31,11 +36,10 @@ class ViewController: UIViewController {
     
 }
 
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         var SecondController = segue.destination as! SecondViewController
-        SecondController.myString = UISlider?
     }
-    override func didReceiveMemoryWarning() {
+        func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
